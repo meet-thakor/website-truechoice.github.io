@@ -304,4 +304,8 @@
     .d_none {
         display: none;
     }
+
+    .blog_img figure img {
+        display: none;     
+   }
 }
