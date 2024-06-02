@@ -28,6 +28,16 @@
 @import url(jquery-ui.css);
 @import url(nice-select.css);
 
+/*-------------------- no scrollbar ---------------------*/
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+     -ms-overflow-style: none;  /* IE and Edge */
+     scrollbar-width: none;  /* Firefox */
+   }
+
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
@@ -163,6 +173,18 @@ a,
 img {
      max-width: 100%;
      height: auto;
+}
+
+pre {
+     display: block;
+     overflow-x: auto;
+     white-space: pre-wrap;
+     word-break: keep-all;
+     white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+     white-space: -pre-wrap !important;      /* Opera 4-6 */
+     white-space: -o-pre-wrap !important;    /* Opera 7 */
+     word-wrap: break-word !important;       /* Internet Explorer 5.5+ */
+     font-family: 'Poppins', sans-serif;
 }
 
  :focus {
@@ -747,6 +769,10 @@ ul.search li a:hover {
      font-size: 17px;
      line-height: 20px;
      font-weight: bold;
+}
+
+.marriage_text pre {
+     padding: 5px;
 }
 
 .padd_right {

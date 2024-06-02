@@ -58,6 +58,7 @@
         padding: 49px 8px;
         padding-left: 30px;
         height: 240px;
+        margin:0 5% 0 5%;
         
     }
     .plan_text h3 {
@@ -202,6 +203,10 @@
     .read_more {
         margin-left: 50px;
     }
+
+    .plan_text {
+        margin: 0 5% 0 5%;
+    }
 }
 
 @media (max-width: 575px) {
@@ -308,4 +313,8 @@
     .blog_img figure img {
         display: none;     
    }
+
+   .plan_text {
+    margin: 0 5% 0 5%;
+}
 }
