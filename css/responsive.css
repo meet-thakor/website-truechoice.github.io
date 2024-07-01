@@ -267,7 +267,11 @@
     }
 
     .price_text h3 {
-        font-size: 17px;
+        font-size: 14px;
+   }
+
+   .price_text p {
+     font-size: 10px
    }
     .main_form .send_btn {
         margin-bottom: 30px;
