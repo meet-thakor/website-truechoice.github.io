@@ -187,6 +187,10 @@ pre {
      font-family: 'Poppins', sans-serif;
 }
 
+.list {
+     padding-left: 5%;
+     text-align: left;
+}
  :focus {
      outline: 0;
 }
@@ -574,7 +578,7 @@ ul.search li a:hover {
      font-size: 17px;
      line-height: 27px;
      padding-bottom: 30px;
-     text-align: justify;
+     /*text-align: justify;*/
      text-justify: inter-word;
 }
 
@@ -597,6 +601,7 @@ ul.search li a:hover {
      color: #fff;
      transition: ease-in all 0.5s;
 }
+
 
 
 /* our plane */
@@ -795,7 +800,50 @@ ul.search li a:hover {
      margin-bottom: 30px;
 }
 
+.price_text {
+     padding: 40px 40px 40px 40px;
+}
 
+.price_text span {
+     color: #c1c2c3;
+     font-size: 17px;
+     line-height: 20px;
+     padding-bottom: 25px;
+     display: block;
+}
+
+.price_text h3 {
+     color: #252525;
+     font-size: 24px;
+     line-height: 25px;
+     font-weight: bold;
+     padding-bottom: 30px;
+     
+}
+
+.price_text p {
+     color: #202020;
+     font-size: 17px;
+     line-height: 30px;
+     padding-bottom: 5px;
+}
+
+.price_text h4 {
+     color: #202020;
+     font-size: 17px;
+     line-height: 20px;
+     font-weight: bold;
+}
+
+.price_text pre {
+     padding: 5px;
+     text-align: justify;
+     text-justify: inter-word;
+}
+
+#price {
+     overflow-x: auto;
+}
 /* end blog */
 
 

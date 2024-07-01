@@ -265,6 +265,10 @@
     .marriage_text {
         padding: 20px 25px 20px 25px;
     }
+
+    .price_text h3 {
+        font-size: 17px;
+   }
     .main_form .send_btn {
         margin-bottom: 30px;
     }
