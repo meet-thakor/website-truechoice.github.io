@@ -709,6 +709,10 @@ ul.search li a:hover {
      display: none;
 }
 
+.price_details {
+     display: none;
+}
+
 /** end about section **/
 
 
@@ -801,7 +805,7 @@ ul.search li a:hover {
 }
 
 .price_text {
-     padding: 40px 40px 40px 40px;
+     padding: 20px 40px 20px 40px;
 }
 
 .price_text span {
@@ -817,7 +821,7 @@ ul.search li a:hover {
      font-size: 24px;
      line-height: 25px;
      font-weight: bold;
-     padding-bottom: 30px;
+     /*padding-bottom: 30px;*/
      
 }
 
@@ -833,6 +837,7 @@ ul.search li a:hover {
      font-size: 17px;
      line-height: 20px;
      font-weight: bold;
+     padding-right: 20px;
 }
 
 .price_text pre {
@@ -842,8 +847,13 @@ ul.search li a:hover {
 }
 
 #price {
-     overflow-x: auto;
+     align-self: start;
 }
+
+.on_top {
+     align-self: start;
+}
+
 /* end blog */
 
 
