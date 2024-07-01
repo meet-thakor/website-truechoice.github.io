@@ -267,8 +267,12 @@
     }
 
     .price_text h3 {
-        font-size: 14px;
+        font-size: 17px;
    }
+
+   .price_text h4 {
+    font-size: 12px;
+}
 
    .price_text p {
      font-size: 10px
