@@ -84,3 +84,39 @@ $(function () {
 				  $this.html("Read more");
 			  }
 	  });
+
+	  $( "#price_silver" ).click(function() {
+		$( "#price_details_1" ).slideToggle( "fast" );
+			var $this = $(this);
+			  $this.toggleClass("open");
+	  
+			  if ($this.hasClass("open")) {
+				  $this.html("<h4>Less Details</h4>");
+			  } else {
+				  $this.html("<h4>View Details</h4>");
+			  }
+	  });
+
+	  $( "#price_gold" ).click(function() {
+		$( "#price_details_2" ).slideToggle( "fast" );
+			var $this = $(this);
+			  $this.toggleClass("open");
+	  
+			  if ($this.hasClass("open")) {
+				  $this.html("<h4>Less Details</h4>");
+			  } else {
+				  $this.html("<h4>View Details</h4>");
+			  }
+	  });
+
+	  $( "#price_platinum" ).click(function() {
+		$( "#price_details_3" ).slideToggle( "fast" );
+			var $this = $(this);
+			  $this.toggleClass("open");
+	  
+			  if ($this.hasClass("open")) {
+				  $this.html("<h4>Less Details</h4>");
+			  } else {
+				  $this.html("<h4>View Details</h4>");
+			  }
+	  });
